@@ -26,7 +26,6 @@ def main():
     # we get an "Unauthorized" exception.
     try:
         update_id = bot.get_updates()[0].update_id
-        print(update_id)
     except IndexError:
         update_id = None
 
